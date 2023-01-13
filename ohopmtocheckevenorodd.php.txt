@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>factorial program using loop in PHP </totle>
+</head>
+<body>
+<form method="post">
+enter the no:<br>
+<input type="number" name="number" id="number">
+<input type="submit" name="submit" id="submit">
+</form>
+</html>
+
+<?php
+if($_GET)
+{
+ $fact=1;
+$number=$_GET['number'];
+if(($number%2)==0)
+{
+ echo "$number is an even number";
+}
+else
+{
+echo "$number is odd number";
+}
+?>
